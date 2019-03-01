@@ -2,14 +2,14 @@ html {
   font-family: 'Alegreya Sans', sans-serif;
 }
 
-h1::first-letter {
-  text-transform: uppercase;
-}
-
-#cont-glo {
-  width: 900px;
+main {
+  width: 960px;
   height: auto;
   margin: 0 auto;
+}
+
+h1::first-letter {
+  text-transform: uppercase;
 }
 
 #cont-search {
@@ -74,7 +74,6 @@ p {
 
 a {
   color: #646464;
-  text-decoration: none;
 }
 
 .sousTitre {
@@ -87,12 +86,21 @@ iframe {
   width: 100%;
   height: 300px;
   border: none;
-  margin: 0 0 10px 0;
-  border-radius: 0 0 4px 4px;
+  margin-top: 10px;
+  border-radius: 4px;
   display: block;
 }
 
 .btn {
   color: #111c3a;
   background: pink;
+}
+
+.collapse {
+  background: pink;
+  color: black;
+}
+
+.card-body {
+  padding: 15px;
 }
