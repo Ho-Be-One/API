@@ -10,7 +10,7 @@ function myFunction() {
         fetch(URL).then(function (response) {
             response.json().then(function (data) {
 
-                var titre = "<div id='separ'>" + data[0] + "</div>";
+                var titre = "<div>" + data[0] + "</div>";
                 var nom = data[1];
                 var description = data[2];
                 var liens = data[3];
